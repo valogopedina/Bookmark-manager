@@ -13,10 +13,10 @@ So I can add new websites I like
 I want to be able to save a websites address and title to my list
 
 As a User
-So that I can organise my list effectively 
+So that I can organise my list effectively
 I want to be able to tag my links
 
 As a User
 So that I can see my lists organized
-I want to be able to filter my links by tag:wq
+I want to be able to filter my links by tag
 

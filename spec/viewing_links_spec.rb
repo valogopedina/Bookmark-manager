@@ -1,3 +1,4 @@
+require './app/models/link'
 feature 'Viewing links' do
 
   scenario 'see a list of links ' do

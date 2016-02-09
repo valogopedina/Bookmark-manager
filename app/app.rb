@@ -1,11 +1,8 @@
 require 'sinatra/base'
-require 'rubygems'
-require 'data_mapper'
+
 
 
 class BookmarkManager < Sinatra::Base
-  DataMapper::Logger.new($stdout, :debug)
-  DataMapper.setup(:default, 'postgres://localhost/datamapper_play')
 
   get '/' do
     'list of links'

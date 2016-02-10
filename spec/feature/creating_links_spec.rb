@@ -1,3 +1,4 @@
+
 feature 'Creating links'  do
 
   scenario 'creating a new link' do
@@ -8,6 +9,7 @@ feature 'Creating links'  do
       expect(page.status_code).to eq 200
     within 'ul#links' do
       expect(page).to have_content('xkcd')
+
     end
   end
 end

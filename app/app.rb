@@ -6,8 +6,9 @@ require_relative 'data_mapper_setup'
 class BookmarkManager < Sinatra::Base
   post '/links' do
     link = Link.create(url: params[:url], title: params[:title])
-    tag = Tag.create(name: params[:tags])
-    link.tags << tag
+    params[:tags].split.each do |tag|
+    link.tags << Tag.create(name: tag)
+    end
     link.save
     redirect to('/links')
   end

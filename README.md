@@ -1,15 +1,36 @@
-As a time-pressed user
-So that I can choose a link
-I want to see a list of links
 
-As a time-pressed user
-So that I can extend my list of links
-I want to be able to add new links
+Task
+-----
 
-As a time-pressed user
-So that I can distinguish between links
-I want to be able to tag links
+```
+As a user
+So that I can quickly go to web sites I regularly visit
+I would like to see a list of links on the homepage
 
-As a time-pressed user
-So that I can have list of related links
-I want to be able to filter links by a tag
+As a user
+So that I can quickly find web sites I recently bookmarked
+I would like to see links in descending chronological order
+
+As a user
+So that I can save a website
+I would like to add the site's address and title to my bookmark manager
+
+As a user
+So that I can organise my many links into different categories for ease of search
+I would like to add tags to the links in my bookmark manager
+
+As a user
+So that I can quickly find links on a particular topic
+I would like to filter links by tag
+
+```
+
+| Object | Messages |
+|--------|----------|
+| User   | Add link |
+|        | Add tag  |
+| List of links   |  View |
+|                 |  Add link |
+|                 |  Filter by tag |
+| Link | Be tagged |
+
